@@ -58,6 +58,16 @@ img {
   text-align: center;
   position: relative;
 }
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+.hero__heading {
+  text-align: center;
+}
+.hero__text {
+  text-align: center;
+}
 .logo {
   position: absolute;
   top: 20%;
@@ -131,29 +141,22 @@ article {
 .box__heading {
   margin-bottom: 0.5rem;
 }
-.box__text {
-  text-align: center;
-}
 @media screen and (min-width: 768px) {
   .ad {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: left;
   }
   .box-two {
     padding-left: 2rem;
     padding-right: 10rem;
-    text-align: left;
     margin-bottom: 5rem;
+    text-align: left;
   }
   .article__image {
     position: relative;
     left: -15%;
-  }
-  .box__text {
-    text-align: left;
   }
 }
 /* Section with devices */
@@ -181,9 +184,46 @@ article {
 }
 .tools__heading {
   margin-bottom: 10rem;
+  text-align: center;
+  padding: 2rem;
 }
 .tools__image {
   width: 4rem;
   height: 3.5rem;
   margin: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 3rem 0 3rem;
+  }
+  .tool {
+    padding: 2rem;
+    flex: 1;
+  }
+}
+/* Companies */
+.companies {
+  margin-top: 8rem;
+}
+.company {
+  text-align: center;
+  margin: 5rem;
+}
+.company__image {
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+  .company__image {
+    width: 80%;
+  }
 }
