@@ -17,6 +17,7 @@ body {
   --color-dark-grayish-blue: hsl(210, 10%, 33%);
   --color-grayish-blue: hsl(201, 11%, 66%);
   --color-white: #fff;
+  --color-footer-bg: #f5f6f8;
 }
 
 h1,
@@ -53,6 +54,17 @@ p {
 img {
   width: 100%;
 }
+/* Lists */
+a,
+ul,
+li {
+  padding: 0;
+  margin: 2rem;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--color-dark-grayish-blue);
+}
 /* Hero */
 .hero {
   text-align: center;
@@ -61,6 +73,7 @@ img {
 .header {
   text-align: center;
   padding: 2rem;
+  margin-top: 15rem;
 }
 .hero__heading {
   text-align: center;
@@ -72,9 +85,6 @@ img {
   position: absolute;
   top: 20%;
   left: 33%;
-}
-.header {
-  margin-top: 20rem;
 }
 @media screen and (min-width: 768px) {
   .logo {
@@ -225,5 +235,48 @@ article {
   }
   .company__image {
     width: 80%;
+  }
+}
+/* Footer */
+footer {
+  background-color: var(--color-footer-bg);
+  text-align: center;
+}
+.footer__image {
+  width: 20%;
+  margin: 3rem 0 3rem;
+}
+.footer-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.media__icon {
+  width: 8%;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 8%;
+  }
+  .footer__image {
+    width: 50%;
+    margin: 3rem 0 3rem;
+  }
+  .footer-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .media__icon {
+    width: 7%;
+    margin-right: 0.5rem;
   }
 }
