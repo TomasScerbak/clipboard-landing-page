@@ -1,0 +1,22 @@
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.5;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+*,
+*::before,
+* ::after {
+  box-sizing: border-box;
+}
+:root {
+  --color-strong-cyan: hsl(171, 66%, 44%);
+  --color-light-blue: hsl(233, 100%, 69%);
+  --color-dark-grayish-blue: hsl(210, 10%, 33%);
+  --color-grayish-blue: hsl(201, 11%, 66%);
+}
+p {
+  font-size: 1.8rem;
+}
