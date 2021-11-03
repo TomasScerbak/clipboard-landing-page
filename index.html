@@ -17,23 +17,23 @@
   </head>
   <body>
     <header>
+      <picture>
+        <source
+          media="(min-width: 900px)"
+          srcset="Images/bg-header-desktop.png"
+        />
+        <source
+          media="(min-width: 400px)"
+          srcset="Image/bg-header-mobile.png"
+        />
+        <img src="Images/bg-header-desktop.png" alt="header image" />
+        <div class="logo">
+          <a href="index.html">
+            <img src="Images/logo.svg" alt="logo image" />
+          </a>
+        </div>
+      </picture>
       <div class="hero">
-        <picture>
-          <source
-            media="(min-width: 900px)"
-            srcset="Images/bg-header-desktop.png"
-          />
-          <source
-            media="(min-width: 400px)"
-            srcset="Image/bg-header-mobile.png"
-          />
-          <img src="Images/bg-header-desktop.png" alt="header image" />
-          <div class="logo">
-            <a href="index.html">
-              <img src="Images/logo.svg" alt="logo image" />
-            </a>
-          </div>
-        </picture>
         <div class="header">
           <h1 class="hero__heading">A history of everything you copy</h1>
           <p class="hero__text box__text">
