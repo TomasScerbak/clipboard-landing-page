@@ -87,7 +87,7 @@ a:hover {
 .logo {
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 27%;
 }
 @media screen and (min-width: 768px) {
   .logo {
@@ -263,10 +263,7 @@ footer {
   padding: 3rem;
 }
 .media__icon {
-  width: 8%;
-}
-.icon:hover {
-  color: var(--color-strong-cyan);
+  width: 10%;
 }
 @media screen and (min-width: 768px) {
   footer {
