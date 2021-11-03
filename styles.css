@@ -72,7 +72,7 @@ li {
 }
 .header {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 15rem;
 }
 .hero__heading {
@@ -84,7 +84,7 @@ li {
 .logo {
   position: absolute;
   top: 20%;
-  left: 33%;
+  left: 30%;
 }
 @media screen and (min-width: 768px) {
   .logo {
