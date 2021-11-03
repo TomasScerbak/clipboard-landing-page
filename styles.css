@@ -65,6 +65,9 @@ li {
   font-size: 1.8rem;
   color: var(--color-dark-grayish-blue);
 }
+a:hover {
+  color: var(--color-strong-cyan);
+}
 /* Hero */
 .hero {
   text-align: center;
@@ -121,6 +124,12 @@ li {
 }
 .btn--primary {
   background-color: var(--color-strong-cyan);
+}
+.btn--primary:hover {
+  background-color: hsla(171, 65%, 52%, 0.733);
+}
+.btn--secondary:hover {
+  background-color: hsla(233, 84%, 70%, 0.884);
 }
 .btn--secondary {
   background-color: var(--color-light-blue);
@@ -255,6 +264,9 @@ footer {
 }
 .media__icon {
   width: 8%;
+}
+.icon:hover {
+  color: var(--color-strong-cyan);
 }
 @media screen and (min-width: 768px) {
   footer {
